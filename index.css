@@ -34,9 +34,65 @@
 
 .story-three {
   background: url("/images/future.jpg") no-repeat fixed;
-  background-position: right 20px top 50px;
+  background-position: right -60px top 50px;
 }
 /* end of code THIRD comic */
+/*************************************************/
+
+
+/*************************************************/
+/* code for the METEOR falling */
+.meteor-container {
+  padding: 0 25px 0 25px;
+}
+
+.meteor-container > img {
+  animation-duration: 3s;
+  animation-name: meteorfall;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: -1000px;
+  left: 2500px;
+  z-index: 1;
+}
+
+.meteor-container > img:nth-child(5n+0) {
+  animation-delay: 0s;
+}
+.meteor-container > img:nth-child(5n+1) {
+  animation-delay: 1s;
+}
+.meteor-container > img:nth-child(5n+2) {
+  animation-delay: 2s;
+}
+.meteor-container > img:nth-child(5n+3) {
+  animation-delay: 3s;
+}
+.meteor-container > img:nth-child(5n+4) {
+  animation-delay: 4s;
+}
+
+.meteor-container > img:nth-child(3n+0) {
+  animation-duration: 5s;
+}
+.meteor-container > img:nth-child(3n+1) {
+  animation-duration: 4s;
+}
+.meteor-container > img:nth-child(3n+2) {
+  animation-duration: 3s;
+}
+
+@keyframes meteorfall {
+  from {
+    top: -1000px;
+    left: 2500px;
+  }
+  to {
+    top: 0;
+    left: 0;
+  }
+}
+/* end of code METEOR falling */
 /*************************************************/
 
 
@@ -47,20 +103,25 @@
 }
 
 html {
-  background-color: #ff6666;
+  background: url("/images/red-dots.jpg");
   height: 100%;
+  width: 100%;
   border-radius: 6px;
   font-family: Bangers;
-  padding: 25px 15px 25px 15px;
+  padding: 5px 25px 25px 10px;
 }
 
 body {
   background-color: white;
   border-radius: 5px;
-  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0.964;
 }
 
 .comic-background {
+  position: relative;
+  z-index: 2;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -69,12 +130,12 @@ body {
   height: 100%;
   width: 100%;
   padding-top: 10px;
-  margin-top: 25px;
+  margin-top: 15px;
   border-radius: 5px;
 }
 
 .sep-border:hover {
-  background-color: yellow;
+  background-color: #ffff4d;
 }
 
 .Row {
