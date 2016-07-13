@@ -27,7 +27,7 @@
 
 
 /*************************************************/
-/* code for the SECOND comic */
+/* code for the THIRD comic */
 .comic-three {
   color: black;
 }
@@ -36,7 +36,7 @@
   background: url("/images/future.jpg") no-repeat fixed;
   background-position: right 20px top 50px;
 }
-/* end of code second comic */
+/* end of code THIRD comic */
 /*************************************************/
 
 
@@ -74,7 +74,7 @@ body {
 }
 
 .sep-border:hover {
-  background-color: #b3f0ff;
+  background-color: yellow;
 }
 
 .Row {
