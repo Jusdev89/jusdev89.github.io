@@ -1,0 +1,90 @@
+/*************************************************/
+/* code for the FIRST comic */
+.comic-one {
+  color: white;
+}
+
+.story-one {
+  background: url("/images/vounterr.jpg") no-repeat fixed;
+  background-position: right 20px top 50px;
+}
+/* end of code one comic */
+/*************************************************/
+
+
+/*************************************************/
+/* code for the SECOND comic */
+.comic-two {
+  color: #33d6ff;
+}
+
+.story-two {
+  background: url("/images/toilet.jpg") no-repeat fixed;
+  background-position: right 20px top 50px;
+}
+/* end of code second comic */
+/*************************************************/
+
+
+/*************************************************/
+/* code for the SECOND comic */
+.comic-three {
+  color: black;
+}
+
+.story-three {
+  background: url("/images/future.jpg") no-repeat fixed;
+  background-position: right 20px top 50px;
+}
+/* end of code second comic */
+/*************************************************/
+
+
+/*************************************************/
+/* shared code for the full page */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ff6666;
+  height: 100%;
+  border-radius: 6px;
+  font-family: Bangers;
+  padding: 25px 15px 25px 15px;
+}
+
+body {
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.comic-background {
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.sep-border:hover {
+  background-color: #b3f0ff;
+}
+
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+}
+/* end of shared code */
+/*************************************************/
