@@ -34,7 +34,7 @@
 
 .story-three {
   background: url("/images/future.jpg") no-repeat fixed;
-  background-position: right -60px top 50px;
+  background-position: right -60px top 50px left 120px;
 }
 /* end of code THIRD comic */
 /*************************************************/
@@ -150,5 +150,35 @@ body {
 .Column {
   display: table-cell;
 }
+
+/* modal display */
+.modal-content {
+  border-radius: 5px;
+  background-color: white;
+}
+
+.modal{
+  padding: 50px 50px 50px 50px;
+  z-index: 100;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+}
+
+.container {
+  padding: 25px 25px 25px 25px;
+}
+
+.closebtn {
+  float: right;
+  margin: 5px 10px;
+}
+
+/* modal end */
+
 /* end of shared code */
 /*************************************************/
