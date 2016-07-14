@@ -2,6 +2,7 @@
 /* code for the FIRST comic */
 .comic-one {
   color: #007acc;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 .story-one {
@@ -15,7 +16,8 @@
 /*************************************************/
 /* code for the SECOND comic */
 .comic-two {
-  color: #cca300;
+  color: #cc7a00;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 .story-two {
@@ -30,6 +32,7 @@
 /* code for the THIRD comic */
 .comic-three {
   color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .story-three {
@@ -230,6 +233,7 @@ body {
   min-height: 100%;
   min-width: 100%;
   opacity: 0.964;
+  cursor: url("/images/superman.png"), auto;
 }
 
 .comic-background {
@@ -291,8 +295,10 @@ body {
 .closebtn {
   font-size: 2em;
   margin: 5px 10px;
+  text-shadow: -1px 0 #262626, 0 1px #262626, 1px 0 #262626, 0 -1px #262626;
   color: #660000;
   display: inline-block;
+  cursor: default;
 }
 
 .closebtn:hover {
@@ -303,10 +309,11 @@ body {
   position: absolute;
   background: url("/images/talking-kids.jpg") no-repeat;
   background-position: bottom 25px;
-  height: 350px;
+  height: 295px;
   width: 350px;
   border-radius: 5px;
-  color: #661400;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #660000;
   text-align: left;
   padding-left: 7px;
 }
@@ -318,7 +325,8 @@ body {
   height: 295px;
   width: 600px;
   border-radius: 5px;
-  color: #661400;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #660000;
   text-align: left;
   padding-left: 7px;
 }
@@ -331,7 +339,8 @@ body {
   height: 450px;
   width: 650px;
   border-radius: 5px;
-  color: #661400;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #660000;
   text-align: left;
   padding-left: 7px;
 }
@@ -345,8 +354,11 @@ body {
   position: absolute;
   top: 53em;
   right: 2em;
+  text-shadow: -1px 0 #991f00, 0 1px #991f00, 1px 0 #991f00, 0 -1px #991f00;
 }
 
 .oakland-love {
   color: #991f00;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
 }
