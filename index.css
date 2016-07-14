@@ -1,7 +1,7 @@
 /*************************************************/
 /* code for the FIRST comic */
 .comic-one {
-  color: #1a1aff;
+  color: #007acc;
 }
 
 .story-one {
@@ -41,11 +41,34 @@
 
 
 /*************************************************/
-/* code for the METEOR falling */
+/* code for the EARTH falling */
 .earth {
   margin-top: -320px;
 }
-/* code for earth */
+/* end code for earth */
+/*************************************************/
+
+/*************************************************/
+/* code for the SUN falling */
+.sun-image {
+  position: absolute;
+  top: 30em;
+  right: 30em;
+  height: 5em;
+  width: 5em;
+  animation-name: sun;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sun {
+  0%   {right: 30em; top:30em;}
+  25%  {right: 5em; top:40em;}
+  50%  {right: 25em; top:28em;}
+  75%  {right: 10em; top:28em;}
+  100% {right: 30em; top:30em;}
+}
+/* code for SUN */
 /*************************************************/
 
 /*************************************************/
@@ -123,7 +146,6 @@
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
 }
-
 
 @keyframes spin {
   100% {transform: rotate(1turn); }
@@ -263,6 +285,7 @@ body {
 
 .container {
   padding: 25px 25px 25px 25px;
+  height: 820px
 }
 
 .closebtn {
@@ -277,12 +300,38 @@ body {
 }
 
 .talking-kids {
+  position: absolute;
   background: url("/images/talking-kids.jpg") no-repeat;
-  background-position: bottom 15px left 15;
+  background-position: bottom 25px;
   height: 350px;
   width: 350px;
   border-radius: 5px;
-  color: white;
+  color: #661400;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.example-kids {
+  right: 65px;
+  position: absolute;
+  background: url("/images/school.jpg") no-repeat;
+  height: 295px;
+  width: 600px;
+  border-radius: 5px;
+  color: #661400;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.one-kids {
+  bottom: 55px;
+  right: 390px;
+  position: absolute;
+  background: url("/images/vounterr.jpg") no-repeat;
+  height: 450px;
+  width: 650px;
+  border-radius: 5px;
+  color: #661400;
   text-align: left;
   padding-left: 7px;
 }
@@ -291,3 +340,13 @@ body {
 
 /* end of shared code */
 /*************************************************/
+
+.made-in {
+  position: absolute;
+  top: 53em;
+  right: 2em;
+}
+
+.oakland-love {
+  color: #991f00;
+}
