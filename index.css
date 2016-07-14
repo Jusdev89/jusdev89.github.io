@@ -46,6 +46,10 @@
 /*************************************************/
 /* code for the EARTH falling */
 .earth {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
   margin-top: -320px;
 }
 /* end code for earth */
@@ -54,6 +58,10 @@
 /*************************************************/
 /* code for the SUN falling */
 .sun-image {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
   position: absolute;
   top: 30em;
   right: 30em;
@@ -160,6 +168,10 @@
 /* code for the METEOR falling */
 .meteor-container {
   padding: 0 25px 0 25px;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
 }
 
 .meteor-container > img {
@@ -234,6 +246,10 @@ body {
   min-width: 100%;
   opacity: 0.964;
   cursor: url("/images/superman.png"), auto;
+}
+
+body:active{
+  cursor: url("/images/superman-uppercut.png"), auto;
 }
 
 .comic-background {
