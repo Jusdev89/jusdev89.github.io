@@ -1,12 +1,12 @@
 /*************************************************/
 /* code for the FIRST comic */
 .comic-one {
-  color: white;
+  color: #1a1aff;
 }
 
 .story-one {
   background: url("/images/vounterr.jpg") no-repeat fixed;
-  background-position: right 110px top 50px;
+  background-position: right 110px top 30px;
 }
 /* end of code one comic */
 /*************************************************/
@@ -15,12 +15,12 @@
 /*************************************************/
 /* code for the SECOND comic */
 .comic-two {
-  color: #33d6ff;
+  color: #cca300;
 }
 
 .story-two {
   background: url("/images/toilet.jpg") no-repeat fixed;
-  background-position: right 20px top 50px;
+  background-position: right 20px top 30px;
 }
 /* end of code second comic */
 /*************************************************/
@@ -29,7 +29,7 @@
 /*************************************************/
 /* code for the THIRD comic */
 .comic-three {
-  color: black;
+  color: white;
 }
 
 .story-three {
@@ -39,6 +39,97 @@
 /* end of code THIRD comic */
 /*************************************************/
 
+
+/*************************************************/
+/* code for the METEOR falling */
+.earth {
+  margin-top: -320px;
+}
+/* code for earth */
+/*************************************************/
+
+/*************************************************/
+/* code for the SOCIAL IMAGE falling */
+.git-image {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 35px;
+  right: 52px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.linkedin-image {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  right: 52px;
+  pointer-events: none;
+}
+
+.twitter-image {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 400px;
+  right: 52px;
+  pointer-events: none;
+}
+
+.wrap {
+  width: 200px;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.github-sticker {
+  right: 25px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: url(https://dl.dropbox.com/u/1143870/i/sticker.png) no-repeat;
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused;
+}
+
+.linkedin-sticker {
+  top: 175px;
+  right: 25px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: url(https://dl.dropbox.com/u/1143870/i/sticker.png) no-repeat;
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused;
+}
+
+.twitter-sticker {
+  top: 355px;
+  right: 25px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: url(https://dl.dropbox.com/u/1143870/i/sticker.png) no-repeat;
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused;
+}
+
+.sticker:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+/* code for SOCIAL */
+/*************************************************/
 
 /*************************************************/
 /* code for the METEOR falling */
@@ -127,8 +218,8 @@ body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  height: 4.5em;
+  width: 13.8em;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 15px;
@@ -143,7 +234,7 @@ body {
 
 .Row {
   display: table;
-  width: 100%; /*Optional*/
+  width: 80%; /*Optional*/
   table-layout: fixed; /*Optional*/
   border-spacing: 10px; /*Optional*/
 }
@@ -155,6 +246,7 @@ body {
 .modal-content {
   border-radius: 5px;
   background-color: white;
+  text-align: center;
 }
 
 .modal{
@@ -174,8 +266,25 @@ body {
 }
 
 .closebtn {
-  float: right;
+  font-size: 2em;
   margin: 5px 10px;
+  color: #660000;
+  display: inline-block;
+}
+
+.closebtn:hover {
+  transform: scale(1.2);
+}
+
+.talking-kids {
+  background: url("/images/talking-kids.jpg") no-repeat;
+  background-position: bottom 15px left 15;
+  height: 350px;
+  width: 350px;
+  border-radius: 5px;
+  color: white;
+  text-align: left;
+  padding-left: 7px;
 }
 
 /* modal end */
