@@ -24,14 +24,17 @@ var comicTwoContent = document.querySelector('.comic-modal-two');
 
 comicTwo.onclick = function(){
   modal.style.display = 'block';
+  comicTwoContent.style.display = 'block';
 }
 
 // this is to open the modal for
 //  comic THREE on the screen
 var comicThree = document.querySelector('.comic-three');
+var comicThreeContent = document.querySelector('.comic-modal-three');
 
 comicThree.onclick = function(){
   modal.style.display = 'block';
+  comicThreeContent.style.display = 'block';
 }
 
 // var myIndex = 0;

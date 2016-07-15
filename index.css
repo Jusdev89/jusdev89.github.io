@@ -6,8 +6,8 @@
 }
 
 .story-one {
-  background: url("/images/vounterr.jpg") no-repeat fixed;
-  background-position: right 110px top 30px;
+  width: 100%;
+  background: url("/images/vounterr.jpg") no-repeat fixed -25em;
 }
 /* end of code one comic */
 /*************************************************/
@@ -36,7 +36,7 @@
 }
 
 .story-three {
-  background: url("/images/future.jpg") no-repeat fixed;
+  background: url("/images/future.jpg") no-repeat fixed 11em;
   background-position: right -60px top 50px left 120px;
 }
 /* end of code THIRD comic */
@@ -50,7 +50,7 @@
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;
-  margin-top: -320px;
+  margin-top: -175px;
 }
 /* end code for earth */
 /*************************************************/
@@ -312,8 +312,7 @@ body:active {
 }
 
 .container {
-  padding: 25px 25px 25px 25px;
-  height: 820px
+  padding: 2px 25px 8px 25px;
 }
 
 .closebtn {
@@ -333,8 +332,8 @@ body:active {
   position: absolute;
   background: url("/images/talking-kids.jpg") no-repeat;
   background-position: bottom 25px;
-  height: 295px;
-  width: 350px;
+  height: 35%;
+  width: 35%;
   border-radius: 5px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: #660000;
@@ -343,44 +342,109 @@ body:active {
 }
 
 .example-kids {
-  right: 65px;
-  position: absolute;
   background: url("/images/school.jpg") no-repeat;
-  height: 295px;
-  width: 600px;
+  height: 12em;
+  width: 35em;
   border-radius: 5px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: #660000;
   text-align: left;
   padding-left: 7px;
+  margin-left: auto;
+  margin-bottom: 2%;
+  margin-top: -2%;
+
 }
 
 .one-kids {
-  bottom: 55px;
-  right: 390px;
-  position: absolute;
   background: url("/images/vounterr.jpg") no-repeat;
-  height: 450px;
-  width: 650px;
+  height: 14em;
+  width: 40em;
   border-radius: 5px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: #660000;
   text-align: left;
   padding-left: 7px;
+  padding-top: 2px;
 }
 
 .deuces {
-  bottom: 55px;
-  right: 60px;
-  position: absolute;
-  background: url("/images/meandDeigo.jpg");
-  height: 450px;
-  width: 320px;
+  background: url("/images/meandDeigo.jpg") no-repeat;
+  height: 14em;
+  width: 19em;
   border-radius: 5px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: #660000;
-  text-align: center;;
+  text-align: center;
   padding-left: 7px;
+  margin-left: 41em;
+  margin-top: -15.3em;
+}
+
+/**********************************************/
+
+.island {
+  position: absolute;
+  background: url("/images/island.jpg") no-repeat right;
+  height: 35%;
+  width: 35%;
+  border-radius: 5px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  color: #e68a00;
+  text-align: left;
+  padding-left: 7px;
+  padding-top: 2px;
+}
+
+.san-blas{
+  background: url("/images/blas.jpg") no-repeat left -4em;
+  height: 12em;
+  width: 35em;
+  border-radius: 5px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  color: #e68a00;
+  text-align: left;
+  padding-left: 7px;
+  margin-left: auto;
+  margin-bottom: 2%;
+  margin-top: -2%;
+}
+
+.star-fish {
+  background: url("/images/starfish.jpg") no-repeat left;
+  height: 14em;
+  width: 40em;
+  border-radius: 5px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  color: #e68a00;
+  text-align: left;
+  padding-left: 7px;
+  padding-top: 2px;
+}
+
+.easy-living {
+  background: url("/images/easy-living.jpg") no-repeat left -1em;
+  height: 14em;
+  width: 19em;
+  border-radius: 5px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  color: #e68a00;
+  text-align: center;
+  padding-left: 7px;
+  margin-left: 41em;
+  margin-top: -15.3em;
+}
+
+.future-now {
+  background: url("/images/thefuture.jpg");
+  height: 26.5em;
+  width: 52em;
+  border-radius: 5px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  color: #e68a00;
+  text-align: bottom;
+  padding-left: 7px;
+  margin-left: 90px;
 }
 
 /* modal end */
