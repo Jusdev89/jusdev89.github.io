@@ -255,6 +255,10 @@ body:active {
 .comic-background {
   position: relative;
   z-index: 2;
+  box-shadow: 0 3px 10px #888;
+  -moz-box-shadow: 0 3px 10px #888;
+  -webkit-box-shadow: 0 3px 10px #888;
+
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -271,7 +275,41 @@ body:active {
 
 .Column:hover {
   z-index: 2;
-  transform: scale(1.04);
+  animation: rotating 1.5s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
 }
 
 .Row {
