@@ -248,7 +248,7 @@ body {
   cursor: url("/images/superman.png"), auto;
 }
 
-body:active{
+body:active {
   cursor: url("/images/superman-uppercut.png"), auto;
 }
 
@@ -301,6 +301,14 @@ body:active{
   right: 0;
   bottom: 0;
   background-color: black;
+}
+
+.comic-modal-one {
+  display: none;
+}
+
+.comic-modal-two {
+  display: none;
 }
 
 .container {
@@ -358,6 +366,20 @@ body:active{
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: #660000;
   text-align: left;
+  padding-left: 7px;
+}
+
+.deuces {
+  bottom: 55px;
+  right: 60px;
+  position: absolute;
+  background: url("/images/meandDeigo.jpg");
+  height: 450px;
+  width: 320px;
+  border-radius: 5px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #660000;
+  text-align: center;;
   padding-left: 7px;
 }
 

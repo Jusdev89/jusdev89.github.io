@@ -10,14 +10,17 @@ closebtn.onclick = function() {
 // this is to open the modal for
 //  comic ONE on the screen
 var comicOne = document.querySelector('.comic-one');
+var comicOneContent = document.querySelector('.comic-modal-one');
 
 comicOne.onclick = function(){
   modal.style.display = 'block';
+  comicOneContent.style.display = 'block';
 }
 
 // this is to open the modal for
 //  comic TWO on the screen
 var comicTwo = document.querySelector('.comic-two');
+var comicTwoContent = document.querySelector('.comic-modal-two');
 
 comicTwo.onclick = function(){
   modal.style.display = 'block';
