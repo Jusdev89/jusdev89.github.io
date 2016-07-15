@@ -311,6 +311,10 @@ body:active {
   display: none;
 }
 
+.comic-modal-three {
+  display: none;
+}
+
 .container {
   padding: 2px 25px 8px 25px;
 }
@@ -357,7 +361,7 @@ body:active {
 }
 
 .one-kids {
-  background: url("/images/vounterr.jpg") no-repeat;
+  background: url("/images/vounterr2.jpg") no-repeat 0em;
   height: 14em;
   width: 40em;
   border-radius: 5px;
